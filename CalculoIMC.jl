@@ -1,7 +1,7 @@
 #=Calculo do IMC
 
 ------------------------------------  
-  IMC (kg/m²)  - Classificação
+IMC = peso/altura² - Classificação
 ------------------------------------  
 menor que 18,5 - Magreza
 de 18,5 a 24,9 - Peso normal
@@ -19,7 +19,7 @@ peso = 50
 imc = 0
 
 # Calculando IMC
-imc = (peso/altura)/2
+imc = (peso/altura^2)
 
 # Saida de dados
 println("IMC: ", round(imc; digits = 2),"\n")
