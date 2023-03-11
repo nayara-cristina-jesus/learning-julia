@@ -32,7 +32,7 @@ end
 x = 500
 y = 4
 
-# Chamadas das Funções
+# Chamada das Funções
 println(f_soma(x,y))
 println(f_subtrai(x,y))
 println(f_mult(x,y))
